@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: heroes-api_development
+
+test:
+  <<: *default
+  database: heroes-api_test
+
+production:
+  <<: *default
+  database: heroes-api_production
+  username: heroes-api
+  password: <%= ENV['HEROES-API_DATABASE_PASSWORD'] %>
