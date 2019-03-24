@@ -2,8 +2,7 @@
 
 class Api::V1::UniversesController < ApplicationController
 
-  set_pagination_headers :universes, only: [:index]
-
+  set_pagination_headers :universes, only: :index
   before_action :set_universe, only: %i[show update destroy]
   before_action :authenticate_user!
 
