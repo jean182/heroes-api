@@ -1,0 +1,4 @@
+app/controllers/concerns/response.rb 7126851189f7f1effa3ede560fdf349c501b28c6
+app/controllers/concerns/exception_handler.rb 941ff7330260e99264590222ee6b21d44641f176
+app/controllers/application_controller.rb 16f5d9a68c0a3d1a131fcb0fbf01bf75bca1bf3a
+app/controllers/api/v1/errors_controller.rb dfa9c18b04f050aceac643cd874c9c79548a6e4f

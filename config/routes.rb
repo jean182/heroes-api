@@ -5,4 +5,5 @@ Rails.application.routes.draw do
       resources :heroes
     end
   end
+  match "*a", to: "api/v1/errors#routing", via: %i[get post]
 end
