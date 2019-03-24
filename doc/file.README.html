@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.9.18
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="file_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'>
+<h1 id="label-Heroes+API">Heroes API</h1>
+
+<h2 id="label-Description">Description</h2>
+
+<p>This is a restful API that mantains heroes and their universe. You can perform the basic rest actions, to create, update, delete or view. You can also associate heroes to their respective universe.</p>
+
+<h2 id="label-Due+date">Due date</h2>
+
+<p>March 25, 2019</p>
+
+<h2 id="label-Technologies+and+versions">Technologies and versions</h2>
+<ul><li>
+<p>Rails(5.2.2.1)</p>
+</li><li>
+<p>Ruby(2.6.1)</p>
+</li><li>
+<p>PostgreSQL v11.2 or greater</p>
+</li><li>
+<p>Rspec v3.8</p>
+</li><li>
+<p>Rubocop v0.66.0</p>
+</li></ul>
+
+<h2 id="label-Installation+Process">Installation Process</h2>
+
+<h3 id="label-Define+ruby+gemset">Define ruby gemset</h3>
+
+<p>If using RVM, be sure to set up your gemset: Do this on the root of the project.</p>
+
+<p><code>$ echo &quot;heroes-api&quot; &gt; .ruby-gemset</code></p>
+
+<p><code>$ cd ..</code></p>
+
+<p><code>$ cd heroes-api</code></p>
+
+<h3 id="label-Installing+dependencies">Installing dependencies</h3>
+
+<p><code>$ gem install bundler</code></p>
+
+<p><code>$ bundle install</code></p>
+
+<h3 id="label-Creating+the+database">Creating the database</h3>
+<ul><li>
+<p>Run</p>
+</li></ul>
+
+<p><code>$ cp config/database.template.yml config/database.yml</code> - Edit the database.yml to specify your specific database username/password if needed. - Run</p>
+
+<p><code>$ rails db:create</code></p>
+
+<p><code>$ rails db:migrate</code></p>
+
+<p><code>$ rails db:seed</code> (If you want dummy seeds in your local database)</p>
+</div></div>
+
+      <div id="footer">
+  Generated on Sun Mar 24 14:38:08 2019 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.18 (ruby-2.6.1).
+</div>
+
+    </div>
+  </body>
+</html>
