@@ -38,7 +38,7 @@ Do this on the root of the project.
 
 - Run
 
-  `$ cp config/database.template.yml config/database.yml`
+  `$ cp config/database.yml.template config/database.yml`
 - Edit the database.yml to specify your specific database username/password if needed.
 - Run
 
