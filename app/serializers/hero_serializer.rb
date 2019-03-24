@@ -2,7 +2,7 @@
 
 class HeroSerializer < ActiveModel::Serializer
 
-  attributes :id, :name, :real_name, :species, :abilities
+  attributes :id, :name, :real_name, :species
   belongs_to :universe
 
 end

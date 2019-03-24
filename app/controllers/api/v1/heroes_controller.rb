@@ -13,7 +13,8 @@ class Api::V1::HeroesController < ApplicationController
   end
 
   def show
-    json_response(@hero)
+    response.headers["status-code"] = 200
+    render json: @hero, serializer: SingleHeroSerializer
   end
 
   def create
